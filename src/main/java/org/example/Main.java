@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!");
     }
     public String szyfrowanie(){
-        String zaszyfrowane = "";
+        String zaszyfrowane = "dsa";
         return zaszyfrowane;
     }
 }
