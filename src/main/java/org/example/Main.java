@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj tekst do zaszyfrowania i klucz");
-        System.out.println(szyfruj(scanner.nextLine(), scanner.nextInt()));
-
+        String szyfrowany = szyfruj(scanner.nextLine(), scanner.nextInt());
+        System.out.println("tekst zaszyfrowany: " + szyfrowany);
     }
     public static String szyfruj(String tekst, int klucz) {
         String alfabet = "abcdefghijklmnopqrstuvwxyz";
