@@ -1,9 +1,12 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println(szyfruj("xag", 3));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("podaj tekst do zaszyfrowania i klucz");
+        System.out.println(szyfruj(scanner.nextLine(), scanner.nextInt()));
 
     }
     public static String szyfruj(String tekst, int klucz) {
